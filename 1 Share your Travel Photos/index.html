@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Share Your Travel Photos</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+ <h1>Share Your Travel Photos</h1>
+ <p>Upload, view, and organize your travel memories</p>
+ </header>
+ <main>
+ <section class="upload-section">
+ <input type="file" id="photoUpload" accept="image/*" multiple>
+ <button onclick="uploadPhotos()">Upload Photos</button>
+ </section>
+ <section class="gallery-section">
+ <h2>Photo Gallery</h2>
+ <div id="gallery" class="gallery"></div>
+ </section>
+ </main>
+ <script src="script.js"></script>
+</body>
+</html>

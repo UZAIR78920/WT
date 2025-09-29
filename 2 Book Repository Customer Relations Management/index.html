@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Book Repository CRM</title>
+ <link rel="stylesheet" href="Book.css">
+</head>
+<body>
+ <header>
+ <h1>  Book Repository CRM</h1>
+ <p>Manage customers & book orders easily</p>
+ </header>
+ <main>
+ <section class="form-section">
+ <h2>Add Customer</h2>
+ <input type="text" id="customerName" placeholder="Customer Name">
+ <input type="email" id="customerEmail" placeholder="Customer Email">
+ <button onclick="addCustomer()">Add Customer</button>
+ </section>
+ <section class="form-section">
+ <h2>Add Order</h2>
+ <select id="customerSelect"></select>
+ <input type="text" id="bookTitle" placeholder="Book Title">
+ <input type="number" id="bookQty" placeholder="Quantity" min="1">
+ <button onclick="addOrder()">Add Order</button>
+ </section>
+ <section class="list-section">
+ <h2>Customers</h2>
+ <ul id="customerList"></ul>
+ </section>
+ <section class="list-section">
+ <h2>Orders</h2>
+ <ul id="orderList"></ul>
+ </section>
+ </main>
+ <script src="book.js"></script>
+</body>
+</html>
