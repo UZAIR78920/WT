@@ -1,0 +1,78 @@
+dy {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background: #f9f9f9;
+}
+header {
+ background: #333;
+ color: white;
+ padding: 15px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+header h1 {
+ margin: 0;
+}
+.canter {
+    text-align: center;
+}
+nav button {
+ margin-left: 10px;
+ padding: 8px 12px;
+ border: none;
+ cursor: pointer;
+ background: #ff6f61;
+ color: white;
+ border-radius: 5px;
+}
+nav button:hover {
+ background: #e65c50;
+}
+.hidden {
+ display: none;
+}
+.gallery {
+ display: flex;
+ gap: 20px;
+ flex-wrap: wrap;
+ padding: 20px;
+}
+.art-card {
+ background: white;
+ padding: 15px;
+ border-radius: 8px;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ text-align: center;
+ width: 200px;
+}
+.art-card img {
+ max-width: 100%;
+ border-radius: 5px;
+}
+form {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ max-width: 300px;
+ margin: auto;
+ padding: 20px;
+}
+form input, form button {
+ padding: 10px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
+form button {
+ background: #4caf50;
+ color: white;
+ border: none;
+}
+#cart-list {
+ list-style: none;
+}
+#cart-list li {
+ padding: 5px;
+ border-bottom: 1px solid #ddd;
+}
